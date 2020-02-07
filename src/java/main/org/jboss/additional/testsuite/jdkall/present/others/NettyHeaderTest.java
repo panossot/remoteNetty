@@ -10,7 +10,6 @@ import static org.junit.Assert.assertTrue;
 import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
 import org.junit.Test;
 
-@RunWith(Arquillian.class)
 @EapAdditionalTestsuite({"modules/testcases/jdkAll/Wildfly/others/src/main/java","modules/testcases/jdkAll/Eap7/others/src/main/java","modules/testcases/jdkAll/Eap72x/others/src/main/java","modules/testcases/jdkAll/Eap72x-Proposed/others/src/main/java"})
 public class NettyHeaderTest {
 
