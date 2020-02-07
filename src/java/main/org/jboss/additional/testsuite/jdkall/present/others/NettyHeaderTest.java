@@ -23,7 +23,7 @@ public class NettyHeaderTest {
                 "Content-Length: 5\r\n" +
                 "Content-Length:\r\n" +
                 "\t6\r\n\r\n" +
-                "123";
+                "123456";
         EmbeddedChannel channel = new EmbeddedChannel(new HttpRequestDecoder());
         assertTrue(channel.writeInbound(Unpooled.copiedBuffer(requestStr, CharsetUtil.US_ASCII)));
 
