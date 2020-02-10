@@ -22,7 +22,7 @@ import org.junit.Test;
 
 @RunWith(Arquillian.class)
 @RunAsClient
-@EapAdditionalTestsuite({"modules/testcases/jdkAll/Wildfly/others/src/main/java","modules/testcases/jdkAll/Eap7/others/src/main/java","modules/testcases/jdkAll/Eap72x/others/src/main/java","modules/testcases/jdkAll/Eap72x-Proposed/others/src/main/java"})
+@EapAdditionalTestsuite({"modules/testcases/jdkAll/Wildfly/others/src/main/java#19.0.0.Beta2","modules/testcases/jdkAll/Eap7/others/src/main/java#7.3.1","modules/testcases/jdkAll/Eap72x/others/src/main/java#7.2.8","modules/testcases/jdkAll/Eap72x-Proposed/others/src/main/java#7.2.8"})
 public class NettyHeaderTest {
 
     private static final String ARCHIVE_NAME = "NettyHeaderTest";
